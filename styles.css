@@ -1,0 +1,84 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    margin: 0 auto 0 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+header div {
+    margin-left: 20px;
+}
+
+.hero-text {
+   font-size: 48px;
+   font-weight: bolder;
+   color: #F9FAF8;
+}
+
+.main-first {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.main-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-third {
+    background-color: rgb(226, 226, 235);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-fourth {
+    display: flex;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
