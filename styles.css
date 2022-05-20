@@ -14,21 +14,37 @@
 header {
     display: flex;
     background-color: #1F2937;
-    color: white;
-    height: 50px;
-    line-height: 50px;
+    color: #E5E7Eb;
+    font-size: 18px;
+    height: 65px;
+    line-height: 65px;
 }
 
 footer {
+    font-size: 16px;
     margin-top: auto;
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
 
 .header-logo {
     margin: 0 auto 0 0;
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -41,44 +57,145 @@ header div {
     margin-left: 20px;
 }
 
+.hero-flexcontainer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .hero-text {
    font-size: 48px;
    font-weight: bolder;
    color: #F9FAF8;
 }
 
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7Eb;
+    margin-bottom: 10px;
+}
+
 .main-first {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.main-first > div {
+    flex-basis: 50%;
+}
+
+.img-flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7Eb;
+    background-color: rgb(113, 112, 124);
 }
 
 .main-second {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main-second > div {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .main-third {
-    background-color: rgb(226, 226, 235);
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding-top: 100px;
+    padding-bottom: 90px;    
 }
 
 .main-fourth {
     display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-fourth > div {
+    background-color: #3882F6;
+    padding: 50px 120px 50px;
+    display: flex;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.main-fourth > div > div {
+    margin-right: auto;
+}
+
+.main-fourth button {
+    margin-left: 150px;
+    border: solid 2px #F9FAF8;
+}
+
+.fourth-action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.fourth-signup {
+    font-size: 18px;
+    font-weight: thin;
+    color: #E5E7Eb;
 }
 
 .images {
     display: flex;
-    gap: 15px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.imgborder {
+    border: solid 5px #3882F6;
+    height: 140px;
+    width: 140px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgsubtext {
+    font-size: 18px;
+    color: #464d58;
 }
 
 .quote {
     font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
 }
 
 .author {
+    font-size: 25px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+header, .main-first, .main-fourth {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main-second, .main-third {
+    padding-left: 380px;
+    padding-right: 380px;
 }
